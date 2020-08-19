@@ -1,7 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import { Form, Input, Button } from 'antd';
-import styles from 'antd/dist/antd.css';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 
 const FormLogin = ({onFinish}) => {

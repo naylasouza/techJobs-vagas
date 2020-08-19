@@ -31,7 +31,7 @@ class Home extends Component {
       switch (value) {
         case "todos":
           return data.map(item => item);
-          break;
+          // break;
         default:
         return job.position.toLowerCase().includes(value);
       }

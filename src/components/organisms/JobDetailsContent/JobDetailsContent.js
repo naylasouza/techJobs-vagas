@@ -1,5 +1,4 @@
 import React from "react";
-import { MainTitle } from "../../atoms";
 import { CardDetails } from "../../molecules";
 import "./jobDetailsContent.css";
 

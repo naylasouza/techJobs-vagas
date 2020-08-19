@@ -17,7 +17,7 @@ class App extends Component {
 
    getJobInfos = async (e) => {
     const id = (e.target.id).split("--")[1];
-    const filteredData = data.filter(job => job.id == id);
+    const filteredData = data.filter(job => job.id === id);
 
     await this.setState({filteredData:filteredData[0]});
 
